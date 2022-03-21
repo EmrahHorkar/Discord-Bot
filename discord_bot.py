@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from requests_html import HTMLSession
 
 
-TOKEN = 'OTUyODE2MDA0Mjk0MTM5OTM1.Yi7hDQ.4aunLSR842mqAYfm_xg3j_AmJH0'
+TOKEN = ''
 
 
 """Döviz"""
