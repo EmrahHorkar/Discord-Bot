@@ -131,19 +131,7 @@ async def on_message(message):
                 
 
                 return
-            elif user_message.lower() == 'see you later':
-                await message.channel.send(f'See you {username}!')
-                return
-        
-            elif user_message.lower() == 'hello':
-                await message.channel.send(f' Hii {username}')
-                return
-            elif user_message.lower() == 'song':
-                await message.channel.send(random.choice(list))
-                return
-            elif user_message.lower() == 'what you doing':
-                await message.channel.send(f'Listening music {username} what about you?')
-                return
+            
             
             elif user_message.lower() == 'weather':
                 s = HTMLSession()
@@ -157,19 +145,7 @@ async def on_message(message):
                 return
             
             
-            elif user_message.lower() == 'good night':
-                await message.channel.send(f'Good night {username}!')
-                return
-            elif user_message.lower() == 'good morming':
-                await message.channel.send(f'Good morning {username}!')
-                return
-            elif user_message.lower() == 'how are you':
-                await message.channel.send(f'I am okay what about you {username}')
-                return
-            elif user_message.lower() == 'whats up':
-                await message.channel.send(f'Not much {username} whats up with you?')
-                return
-            
+         
             
             elif user_message.lower() == 'exchange':      
                 await message.channel.send(f'Exchange rates =>  {a}')
@@ -180,9 +156,7 @@ async def on_message(message):
                 return
             
                 
-            elif user_message.lower() == 'quote':
-                await message.channel.send(f' In the end, the whole of life becomes an act of letting go')
-                return
+            
             
     
             
